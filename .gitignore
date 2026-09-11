@@ -1,0 +1,23 @@
+# Secrets
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ML artifacts (large model files — but NOT the chroma index, which we commit)
+artifacts/
+mlruns/
+*.onnx
+*.bin
+*.safetensors
+
+# OS
+.DS_Store
+.ipynb_checkpoints/
