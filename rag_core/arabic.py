@@ -41,6 +41,8 @@ def normalize_ar(text: str) -> str:
 
     text = re.sub(r"[\u0660-\u0669]", lambda m: str(ord(m.group()) - 0x0660), text)
 
+    text = re.sub(r"[؟،؛٪؉۔]", " ", text)
+   
     text = re.sub(r"[^\w\s\u0600-\u06FF]", " ", text)
 
     return re.sub(r"\s+", " ", text).strip()
@@ -58,6 +60,26 @@ def detect_lang(text: str) -> str:
         return "unknown"
 
     return "ar" if ar >= la else "en"
+
+AR_PREFIXES = ("ال", "وال", "بال", "كال", "فال", "لل", "و", "ف", "ب", "ك", "ل")
+AR_SUFFIXES = ("ها", "ان", "ات", "ون", "ين", "ية", "ه", "ة", "ي", "ا")
+
+def light_stem(token: str) -> str:
+    """Strip common Arabic prefixes/suffixes so related word-forms match.
+    Crude but effective for keyword search: الارجاع, ارجاع, ارجع move closer."""
+    for p in AR_PREFIXES:
+        if token.startswith(p) and len(token) - len(p) >= 3:
+            token = token[len(p):]
+            break
+    for s in AR_SUFFIXES:
+        if token.endswith(s) and len(token) - len(s) >= 3:
+            token = token[:-len(s)]
+            break
+    return token
+
+def stem_tokens(text: str) -> list[str]:
+    """Normalize then light-stem each token, for BM25."""
+    return [light_stem(t) for t in normalize_ar(text).split()]
 
 if __name__ == "__main__":
 
