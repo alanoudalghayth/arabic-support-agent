@@ -1,0 +1,50 @@
+{"q": "كم يوم عندي عشان أرجع المنتج؟", "relevant_ids": ["returns::0"], "lang": "ar_dialect"}
+{"q": "ما هي مدة سياسة الإرجاع؟", "relevant_ids": ["returns::0"], "lang": "ar_msa"}
+{"q": "How many days do I have to return a product?", "relevant_ids": ["returns::0", "returns::1"], "lang": "en"}
+{"q": "وش رسوم الإرجاع؟", "relevant_ids": ["returns::0"], "lang": "ar_dialect"}
+{"q": "متى يوصلني المبلغ المسترد؟", "relevant_ids": ["returns::0"], "lang": "ar_msa"}
+{"q": "هل أقدر أرجع عطر مفتوح؟", "relevant_ids": ["returns::0"], "lang": "ar_dialect"}
+{"q": "Can I return discounted items?", "relevant_ids": ["returns::0", "returns::1"], "lang": "en"}
+{"q": "كم رسوم الشحن؟", "relevant_ids": ["shipping::0"], "lang": "ar_dialect"}
+{"q": "متى يكون الشحن مجاني؟", "relevant_ids": ["shipping::0"], "lang": "ar_msa"}
+{"q": "What is the free shipping threshold?", "relevant_ids": ["shipping::0", "shipping::1"], "lang": "en"}
+{"q": "كم ياخذ التوصيل للرياض؟", "relevant_ids": ["shipping::0"], "lang": "ar_dialect"}
+{"q": "هل يوجد توصيل سريع؟", "relevant_ids": ["shipping::0"], "lang": "ar_msa"}
+{"q": "Do you deliver on Fridays?", "relevant_ids": ["shipping::0", "shipping::1"], "lang": "en"}
+{"q": "وش طرق الدفع المتاحة؟", "relevant_ids": ["payment::0"], "lang": "ar_dialect"}
+{"q": "هل يمكنني الدفع عند الاستلام؟", "relevant_ids": ["payment::0"], "lang": "ar_msa"}
+{"q": "Can I pay in installments?", "relevant_ids": ["payment::0", "payment::1"], "lang": "en"}
+{"q": "ليش فشلت عملية الدفع؟", "relevant_ids": ["payment::0"], "lang": "ar_dialect"}
+{"q": "هل تقبلون آبل باي؟", "relevant_ids": ["payment::0"], "lang": "ar_msa"}
+{"q": "كم مدة الضمان؟", "relevant_ids": ["warranty::0"], "lang": "ar_dialect"}
+{"q": "ما الذي لا يغطيه الضمان؟", "relevant_ids": ["warranty::0"], "lang": "ar_msa"}
+{"q": "How do I claim warranty service?", "relevant_ids": ["warranty::0", "warranty::1"], "lang": "en"}
+{"q": "جهازي وقع وانكسر يشمله الضمان؟", "relevant_ids": ["warranty::0"], "lang": "ar_dialect"}
+{"q": "نسيت كلمة المرور كيف أرجعها؟", "relevant_ids": ["account::0"], "lang": "ar_dialect"}
+{"q": "كيف أنشئ حساب جديد؟", "relevant_ids": ["account::0"], "lang": "ar_msa"}
+{"q": "How do I reset my password?", "relevant_ids": ["account::0", "account::1"], "lang": "en"}
+{"q": "أبغى أغير رقم جوالي في الحساب", "relevant_ids": ["account::0"], "lang": "ar_dialect"}
+{"q": "كيف أحذف حسابي نهائياً؟", "relevant_ids": ["account::0"], "lang": "ar_msa"}
+{"q": "طلبي وين وصل؟", "relevant_ids": ["order_tracking::0"], "lang": "ar_dialect"}
+{"q": "كيف أتتبع حالة طلبي؟", "relevant_ids": ["order_tracking::0"], "lang": "ar_msa"}
+{"q": "Where can I find my tracking number?", "relevant_ids": ["order_tracking::0", "order_tracking::1"], "lang": "en"}
+{"q": "طلبي متأخر وش أسوي؟", "relevant_ids": ["order_tracking::0"], "lang": "ar_dialect"}
+{"q": "أبغى ألغي طلبي كيف؟", "relevant_ids": ["cancellation::0"], "lang": "ar_dialect"}
+{"q": "هل يمكن إلغاء الطلب بعد الشحن؟", "relevant_ids": ["cancellation::0"], "lang": "ar_msa"}
+{"q": "How do I cancel an order?", "relevant_ids": ["cancellation::0", "cancellation::1"], "lang": "en"}
+{"q": "أبغى أبدل المقاس", "relevant_ids": ["exchange::0"], "lang": "ar_dialect"}
+{"q": "كيف أطلب استبدال منتج؟", "relevant_ids": ["exchange::0"], "lang": "ar_msa"}
+{"q": "Is the first exchange free?", "relevant_ids": ["exchange::0", "exchange::1"], "lang": "en"}
+{"q": "كيف أستخدم كود الخصم؟", "relevant_ids": ["promo_codes::0"], "lang": "ar_msa"}
+{"q": "ليش كود الخصم ما اشتغل؟", "relevant_ids": ["promo_codes::0"], "lang": "ar_dialect"}
+{"q": "Can I use two promo codes together?", "relevant_ids": ["promo_codes::0", "promo_codes::1"], "lang": "en"}
+{"q": "وصلني منتج تالف وش أسوي؟", "relevant_ids": ["damaged_items::0"], "lang": "ar_dialect"}
+{"q": "ماذا أفعل إذا وصلني منتج خاطئ؟", "relevant_ids": ["damaged_items::0"], "lang": "ar_msa"}
+{"q": "I received a broken item, what now?", "relevant_ids": ["damaged_items::0", "damaged_items::1"], "lang": "en"}
+{"q": "متى تشتغل خدمة العملاء؟", "relevant_ids": ["contact_hours::0"], "lang": "ar_dialect"}
+{"q": "ما هي ساعات عمل الدعم؟", "relevant_ids": ["contact_hours::0"], "lang": "ar_msa"}
+{"q": "How can I contact customer service?", "relevant_ids": ["contact_hours::0", "contact_hours::1"], "lang": "en"}
+{"q": "كيف أجمع نقاط الولاء؟", "relevant_ids": ["loyalty_program::0"], "lang": "ar_msa"}
+{"q": "كم نقطة عشان أحصل على خصم؟", "relevant_ids": ["loyalty_program::0"], "lang": "ar_dialect"}
+{"q": "هل تبيعون بالجملة للشركات؟", "relevant_ids": ["bulk_orders::0"], "lang": "ar_msa"}
+{"q": "Do you protect my personal data?", "relevant_ids": ["data_privacy::0", "data_privacy::1"], "lang": "en"}
